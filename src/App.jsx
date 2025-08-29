@@ -14,20 +14,20 @@ import Layout from './Components/Hoc/Layout'
 function App() {
   return (
     <div>
-    
+
 
       <Routes>
-        <Route element={<Layout/>}>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/service' element={<Service />} />
-         <Route path='/blog' element={<Blog />} />
+        <Route element={<Layout />}>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/service' element={<Service />} />
+          <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
-          </Route>
-       
+        </Route>
+
 
       </Routes>
-      
+
     </div>
   )
 }

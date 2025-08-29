@@ -2,11 +2,11 @@ import React from 'react'
 import Herosection from '../PageComponents/Home/Herosection'
 import Card from '../Ui/Card'
 import Abouthouse from '../Ui/Abouthouse'
-import Servicesection from '../Ui/servicesection'
 import Videosection from '../Ui/Videosection'
 import Testimonial from '../Ui/Testimonial'
 import Instagramsection from '../Ui/Instagramsection'
 import Footer from '../Navigation/Footer'
+import Servicesection from '../Ui/servicesection'
 
 function Home() {
   return (
