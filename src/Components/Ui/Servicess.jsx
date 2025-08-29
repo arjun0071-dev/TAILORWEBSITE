@@ -4,7 +4,7 @@ import service2 from "../../assets/services2.svg"
 import service3 from "../../assets/services3.svg"
 import service4 from "../../assets/services4.svg"
 
-function Servicesection() {
+function Servicess() {
   return (
     <div className='flex flex-col items-center mx-5 gap-20'>
         <div className='flex flex-col items-center w-100 gap-6'>
@@ -65,4 +65,4 @@ function Servicesection() {
   )
 }
 
-export default Servicesection
+export default Servicess

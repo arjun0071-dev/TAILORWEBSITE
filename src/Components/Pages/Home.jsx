@@ -6,7 +6,7 @@ import Videosection from '../Ui/Videosection'
 import Testimonial from '../Ui/Testimonial'
 import Instagramsection from '../Ui/Instagramsection'
 import Footer from '../Navigation/Footer'
-import Servicesection from '../Ui/servicesection'
+import Servicess from '../Ui/Servicess'
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
       <Herosection />
       <Card/>
       <Abouthouse />
-      <Servicesection/>
+      <Servicess/>
       <Videosection/>
       <Testimonial/>
       <Instagramsection/>
